@@ -64,6 +64,6 @@ body {
     text-align: center;
   }
   .imgmb {
-    visibility: hidden;
+    display: none;
   }
 }
