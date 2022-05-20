@@ -3,10 +3,18 @@
     padding: 0;
 
 }
-body{
-    width: 1350px;
-}
 
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .btnTIKI{
+        margin: auto 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
 
 
 .imgmb{
@@ -52,41 +60,15 @@ h1{
 .layout-wrapper{
     width: 100%;
 }
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
     .btnTIKI{
         margin: auto 20px;
         align-items: center;
         text-align: center;
     }
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-}
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .btnTIKI{
-        margin: auto auto;
-        align-items: center;
-        text-align: center;
-        position: center;
-    }
-    body{
-        width: 450px ;
-    }
-    .imgmb{
-        visibility: hidden;
-    }
-    .left-half{
-        width: 100%;
-    }
-    .right-half {
-        width: 0%;
-      }
     h1{
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: bolder;
-        align-items: center;
+       text-align: center;
     }
 }
